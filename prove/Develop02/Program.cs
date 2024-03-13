@@ -43,7 +43,7 @@ class Program
             // Prompts user for a file name and then saves file
             else if (choice == "C")
             {
-                Console.Write("Enter file name to save: ");
+                Console.Write("Where do you want to save it? ");
                 string saveFileName = Console.ReadLine();
                 journal.SaveToFile(saveFileName);
             }
@@ -51,7 +51,7 @@ class Program
             // file name to load into the journal
             else if (choice == "D")
             {
-                Console.Write("Enter file name to load: ");
+                Console.Write("Which file would you like to Open? ");
                 string loadFileName = Console.ReadLine();
                 journal.LoadFromFile(loadFileName);
             }

@@ -10,7 +10,8 @@ public static class RandomPrompt
         "If I had one thing I could do over today, what would it be?",
         "what was the coolest thing you saw today?",
         "did you see any cool birds today?",
-        "Why didnt you dress up like a cowboy today?"
+        "Why didnt you dress up like a cowboy today?",
+        "how many fingers am I holding up?"
     };
 
     public static string GetRandomPrompt()

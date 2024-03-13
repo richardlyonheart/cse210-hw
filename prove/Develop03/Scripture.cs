@@ -7,7 +7,8 @@ public class Scripture
 
     public string GetDisplayText();
     {
-
+        string text = "";
+        return text;
     }
 
     public bool IsCompletelyHidden();

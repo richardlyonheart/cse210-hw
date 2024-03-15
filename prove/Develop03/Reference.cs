@@ -10,6 +10,6 @@ public class Reference
     }
     public string GetDisplayText()
     {
-       return _reference; 
+       return _reference; //puts the reference out for access to other program
     }
 }

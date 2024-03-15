@@ -7,11 +7,11 @@ public class Word
     public Word(string text)
     {
         _text = text;
-        _hidden = false;
+        _hidden = false; //default to visible for all words
     }
     public void Hide()
     {
-        _hidden = true;
+        _hidden = true; //changes a word from visable to hidden
     }
 
     public bool IsHidden()
@@ -23,8 +23,8 @@ public class Word
     {
         if (_hidden)
         {
-        return new string('_', _text.Length);
+        return new string('_', _text.Length); //changes word to a underscore for each letter
         }
-        return _text;
+        return _text; // makes new information available to other program
     }
 }

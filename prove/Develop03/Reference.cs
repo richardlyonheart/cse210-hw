@@ -2,9 +2,14 @@ using System.Reflection.Metadata.Ecma335;
 
 public class Reference
 {
-    public string GetDisplayText();
+    private string _reference;
+
+    public Reference(string reference)
     {
-        string text = "";
-        return text;   
+        _reference = reference;
+    }
+    public string GetDisplayText()
+    {
+       return _reference; 
     }
 }

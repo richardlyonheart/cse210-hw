@@ -8,7 +8,6 @@ class Program
         Console.WriteLine("Hello World welcome to the Scripture Game");
         Console.WriteLine("Please Enter a Scripture reference: ");
         string reference = Console.ReadLine();
-        Console.WriteLine();//space for readability
         Console.WriteLine("Please Enter the Verse");
         string text = Console.ReadLine();
 
@@ -52,3 +51,4 @@ class Program
 //My exceeding expectations is to make it so that you input the scripture and verse
 //I was trying to make it that you could do it again and again with new verses each
 //time
+//also selects words that are not already hidden to hide them.

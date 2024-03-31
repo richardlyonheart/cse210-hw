@@ -1,0 +1,4 @@
+SimpleGoal:I am Iron man,2,become Iron man
+EternalGoal:Run real far,50,I need to learn how to run
+ChecklistGoal:fix fence,5,3,0,
+Total Score:52

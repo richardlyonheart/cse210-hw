@@ -34,11 +34,11 @@ class AssetManager
             {
                 foreach (Assets asset in _assets)
                 {
-                    if (asset is Assets SingleFamily)
+                    if (asset is SingleFamily SingleFamily)
                     {
                         writer.WriteLine($"SingleFamily Home:{asset.Name},Rent:{SingleFamily.Rent},Expense:{Singlefamily.Expense},{asset.Description}");
                     }
-                    else if (asset is Assets MultiFamily)
+                    else if (asset is MultiFamily MultiFamily)
                     {
                         writer.WriteLine($"MultiFamily Home:{asset.Name},Vacant:{MultiFamily.Vacant}, TotalRent: {MultiFamily.TotalRent}, Total Expense: {MultiFamily.TotalExpense}, {asset.Description}.")
                     }
